@@ -4,8 +4,8 @@ import Link from "next/link";
 import "../design/design.css";
 
 import Modal from "react-bootstrap/Modal";
-import ProgressBar from "react-bootstrap/ProgressBar";
-
+// import ProgressBar from "react-bootstrap/ProgressBar";
+import { ProgressBar } from "react-bootstrap"
 import axios from "axios";
 import showToast from "@/utils/showToast";
 import { useParams, useRouter } from "next/navigation";

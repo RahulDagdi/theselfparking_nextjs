@@ -3,10 +3,12 @@ import Header from "@/components/Header";
 import React, { useEffect, useState } from "react";
 import "../payments.css";
 import { CiCreditCard2 } from "react-icons/ci";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
+import { Button } from "react-bootstrap"
 // import {Modal,ProgressBar} from "react-bootstrap/Modal";
 import Modal from "react-bootstrap/Modal";
-import ProgressBar from "react-bootstrap/ProgressBar";
+// import ProgressBar from "react-bootstrap/ProgressBar";
+import { ProgressBar } from "react-bootstrap"
 
 import axios from "axios";
 import showToast from "@/utils/showToast";
