@@ -3,3 +3,4 @@ node_modules
 zivzcAg9
 *.log
 tmp
+.vercel

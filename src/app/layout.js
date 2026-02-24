@@ -6,6 +6,12 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { RiArrowLeftSLine } from "react-icons/ri";
 import MainHeader from "@/components/MainHeader/page";
+
+export const metadata = {
+  metadataBase: new URL("https://yourdomain.com"),
+};
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
