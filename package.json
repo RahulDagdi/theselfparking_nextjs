@@ -13,7 +13,7 @@
     "formik": "^2.4.6",
     "html5-qrcode": "^2.3.8",
     "libphonenumber-js": "^1.12.12",
-    "next": "15.3.1",
+    "next": "^16.1.6",
     "qr-scanner": "^1.4.2",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.10",
